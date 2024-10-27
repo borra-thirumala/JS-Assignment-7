@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //check if a number is even or odd
+        let number = prompt("Enter a number: ");
+       
+        if (number%2===0){
+        alert("Even:Given number is even");
+
+        }
+        else{
+        alert("Odd:Given number is odd");
+        }
+
+
+    //compare 2 numbers
+        let num1=prompt("Enter a number1: ");
+        let num2=prompt("Enter number2: ");
+
+        if(num1<num2){
+        alert("Greater:num1 is greater than num2");
+        }
+        else if(num1===num2){
+        alert("Equal:num1 is equal to num2");
+        }
+        else{
+        alert("Smaller:num1 is smaller than num2");
+        }
+
+    //Driving eligibility check
+        var age=prompt("Enter your age: ");
+        var drive=prompt("Do you have valid driving licence")
+        if (age>=18){
+            alert("Can Drive,eligible")
+        }
+        else {
+            alert("Cannot Drive,not eligible")
+        }
+    //determine a number is positive,negative or zero
+      var num=prompt("Enter a number: ")
+      if(num>0){
+        alert("Positive:Given number is positive")
+      }
+      else if(num<0){
+        alert("Negative:Given number is negative")
+      }
+      else{
+        alert("Zero:Given number is zero")
+      }
+
+      var ip=11;
+      if(ip%2==0){
+        console.log(`${ip} is a even num`)
+      }
+      else{
+        console.log(`${ip} is odd num`)
+      }
+
+      var arr=[10,12,13,14,15,16,17,18,19,11];
+      for(i in arr){
+        if(arr[i]%2==0)
+        console.log(arr[i])
+      }
+
+       
+    </script>
+</body>
+</html>
